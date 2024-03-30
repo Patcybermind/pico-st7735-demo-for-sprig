@@ -1,0 +1,3 @@
+/home/patcybermind/Documents/pico/C/pico-st7735-demo/build/_deps/pico_sdk-subbuild/CMakeFiles/pico_sdk-populate.dir
+/home/patcybermind/Documents/pico/C/pico-st7735-demo/build/_deps/pico_sdk-subbuild/CMakeFiles/edit_cache.dir
+/home/patcybermind/Documents/pico/C/pico-st7735-demo/build/_deps/pico_sdk-subbuild/CMakeFiles/rebuild_cache.dir

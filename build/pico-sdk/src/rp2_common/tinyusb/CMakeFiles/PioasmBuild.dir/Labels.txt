@@ -1,0 +1,13 @@
+# Target labels
+ PioasmBuild
+# Source files and their labels
+/home/patcybermind/Documents/pico/C/pico-st7735-demo/build/pico-sdk/src/rp2_common/tinyusb/CMakeFiles/PioasmBuild
+/home/patcybermind/Documents/pico/C/pico-st7735-demo/build/pico-sdk/src/rp2_common/tinyusb/CMakeFiles/PioasmBuild.rule
+/home/patcybermind/Documents/pico/C/pico-st7735-demo/build/pico-sdk/src/rp2_common/tinyusb/CMakeFiles/PioasmBuild-complete.rule
+/home/patcybermind/Documents/pico/C/pico-st7735-demo/build/pico-sdk/src/rp2_common/tinyusb/pioasm/src/PioasmBuild-stamp/PioasmBuild-build.rule
+/home/patcybermind/Documents/pico/C/pico-st7735-demo/build/pico-sdk/src/rp2_common/tinyusb/pioasm/src/PioasmBuild-stamp/PioasmBuild-configure.rule
+/home/patcybermind/Documents/pico/C/pico-st7735-demo/build/pico-sdk/src/rp2_common/tinyusb/pioasm/src/PioasmBuild-stamp/PioasmBuild-download.rule
+/home/patcybermind/Documents/pico/C/pico-st7735-demo/build/pico-sdk/src/rp2_common/tinyusb/pioasm/src/PioasmBuild-stamp/PioasmBuild-install.rule
+/home/patcybermind/Documents/pico/C/pico-st7735-demo/build/pico-sdk/src/rp2_common/tinyusb/pioasm/src/PioasmBuild-stamp/PioasmBuild-mkdir.rule
+/home/patcybermind/Documents/pico/C/pico-st7735-demo/build/pico-sdk/src/rp2_common/tinyusb/pioasm/src/PioasmBuild-stamp/PioasmBuild-patch.rule
+/home/patcybermind/Documents/pico/C/pico-st7735-demo/build/pico-sdk/src/rp2_common/tinyusb/pioasm/src/PioasmBuild-stamp/PioasmBuild-update.rule

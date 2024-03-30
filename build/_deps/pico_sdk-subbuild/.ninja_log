@@ -1,0 +1,21 @@
+# ninja log v5
+0	11	1711763994713166685	pico_sdk-populate-prefix/src/pico_sdk-populate-stamp/pico_sdk-populate-mkdir	9d79975bace1251f
+0	11	1711763994713166685	/home/patcybermind/Documents/pico/C/pico-st7735-demo/build/_deps/pico_sdk-subbuild/pico_sdk-populate-prefix/src/pico_sdk-populate-stamp/pico_sdk-populate-mkdir	9d79975bace1251f
+11	144331	1711764139032671695	pico_sdk-populate-prefix/src/pico_sdk-populate-stamp/pico_sdk-populate-download	43d9a780134f7e0c
+11	144331	1711764139032671695	/home/patcybermind/Documents/pico/C/pico-st7735-demo/build/_deps/pico_sdk-subbuild/pico_sdk-populate-prefix/src/pico_sdk-populate-stamp/pico_sdk-populate-download	43d9a780134f7e0c
+144331	150319	0	pico_sdk-populate-prefix/src/pico_sdk-populate-stamp/pico_sdk-populate-update	fa9d24cb499c5e45
+144331	150319	0	/home/patcybermind/Documents/pico/C/pico-st7735-demo/build/_deps/pico_sdk-subbuild/pico_sdk-populate-prefix/src/pico_sdk-populate-stamp/pico_sdk-populate-update	fa9d24cb499c5e45
+150319	150334	1711764145036121709	pico_sdk-populate-prefix/src/pico_sdk-populate-stamp/pico_sdk-populate-patch	723066e79ca4911a
+150319	150334	1711764145036121709	/home/patcybermind/Documents/pico/C/pico-st7735-demo/build/_deps/pico_sdk-subbuild/pico_sdk-populate-prefix/src/pico_sdk-populate-stamp/pico_sdk-populate-patch	723066e79ca4911a
+150334	150350	1711764145052788699	pico_sdk-populate-prefix/src/pico_sdk-populate-stamp/pico_sdk-populate-configure	9ecf9b13cc2f5cf7
+150334	150350	1711764145052788699	/home/patcybermind/Documents/pico/C/pico-st7735-demo/build/_deps/pico_sdk-subbuild/pico_sdk-populate-prefix/src/pico_sdk-populate-stamp/pico_sdk-populate-configure	9ecf9b13cc2f5cf7
+150350	150367	1711764145069455689	pico_sdk-populate-prefix/src/pico_sdk-populate-stamp/pico_sdk-populate-build	4f4d0857071bee63
+150350	150367	1711764145069455689	/home/patcybermind/Documents/pico/C/pico-st7735-demo/build/_deps/pico_sdk-subbuild/pico_sdk-populate-prefix/src/pico_sdk-populate-stamp/pico_sdk-populate-build	4f4d0857071bee63
+150367	150383	1711764145086122680	pico_sdk-populate-prefix/src/pico_sdk-populate-stamp/pico_sdk-populate-install	b9e4bfe092a9d280
+150367	150383	1711764145086122680	/home/patcybermind/Documents/pico/C/pico-st7735-demo/build/_deps/pico_sdk-subbuild/pico_sdk-populate-prefix/src/pico_sdk-populate-stamp/pico_sdk-populate-install	b9e4bfe092a9d280
+150383	150400	1711764145102789670	pico_sdk-populate-prefix/src/pico_sdk-populate-stamp/pico_sdk-populate-test	b5fd1606130ad0de
+150383	150400	1711764145102789670	/home/patcybermind/Documents/pico/C/pico-st7735-demo/build/_deps/pico_sdk-subbuild/pico_sdk-populate-prefix/src/pico_sdk-populate-stamp/pico_sdk-populate-test	b5fd1606130ad0de
+150400	150423	1711764145126123457	CMakeFiles/pico_sdk-populate-complete	db782d757b428ca6
+150400	150423	1711764145126123457	pico_sdk-populate-prefix/src/pico_sdk-populate-stamp/pico_sdk-populate-done	db782d757b428ca6
+150400	150423	1711764145126123457	/home/patcybermind/Documents/pico/C/pico-st7735-demo/build/_deps/pico_sdk-subbuild/CMakeFiles/pico_sdk-populate-complete	db782d757b428ca6
+150400	150423	1711764145126123457	/home/patcybermind/Documents/pico/C/pico-st7735-demo/build/_deps/pico_sdk-subbuild/pico_sdk-populate-prefix/src/pico_sdk-populate-stamp/pico_sdk-populate-done	db782d757b428ca6
