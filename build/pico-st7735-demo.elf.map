@@ -1607,9 +1607,9 @@ Discarded input sections
  .text          0x00000000        0x0 pico-st7735/lib-st7735/libst7735.a(hw.c.obj)
  .data          0x00000000        0x0 pico-st7735/lib-st7735/libst7735.a(hw.c.obj)
  .bss           0x00000000        0x0 pico-st7735/lib-st7735/libst7735.a(hw.c.obj)
- .text          0x00000000        0x0 /tmp/cc7XdPcI.o
- .data          0x00000000        0x0 /tmp/cc7XdPcI.o
- .bss           0x00000000        0x0 /tmp/cc7XdPcI.o
+ .text          0x00000000        0x0 /tmp/ccL41Y7G.o
+ .data          0x00000000        0x0 /tmp/ccL41Y7G.o
+ .bss           0x00000000        0x0 /tmp/ccL41Y7G.o
  .data          0x00000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .bss           0x00000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .text          0x00000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-malloc.o)
@@ -1928,7 +1928,7 @@ LOAD /usr/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thum
 .boot2          0x10000000      0x100
                 0x10000000                        __boot2_start__ = .
  *(.boot2)
- .boot2         0x10000000      0x100 /tmp/cc7XdPcI.o
+ .boot2         0x10000000      0x100 /tmp/ccL41Y7G.o
                 0x10000100                        __boot2_end__ = .
                 0x00000001                        ASSERT (((__boot2_end__ - __boot2_start__) == 0x100), ERROR: Pico second stage bootloader must be 256 bytes in size)
 
@@ -2858,307 +2858,307 @@ LOAD /usr/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thum
 .iplt           0x10007788        0x0
  .iplt          0x10007788        0x0 /usr/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp/crtbegin.o
 
-.rodata         0x10007788     0x1ab8
+.rodata         0x10007788     0x1ac0
  *(EXCLUDE_FILE(*libm.a: *libc.a:*lib_a-mem*.o *libgcc.a:) .rodata*)
  .rodata.main.str1.4
-                0x10007788     0x1223 CMakeFiles/pico-st7735-demo.dir/demo.c.obj
-                                 0x5b (size before relaxing)
+                0x10007788     0x122b CMakeFiles/pico-st7735-demo.dir/demo.c.obj
+                                 0x63 (size before relaxing)
  .rodata.Test1.str1.4
-                0x100089ab        0xd CMakeFiles/pico-st7735-demo.dir/tst_funcs.c.obj
+                0x100089b3        0xd CMakeFiles/pico-st7735-demo.dir/tst_funcs.c.obj
  .rodata.spin_lock_claim_unused.str1.4
-                0x100089ab       0x1b CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/rp2_common/hardware_sync/sync.c.obj
+                0x100089b3       0x1b CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/rp2_common/hardware_sync/sync.c.obj
  .rodata.resolve_branch.str1.4
-                0x100089ab       0x88 CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/rp2_common/hardware_irq/irq.c.obj
+                0x100089b3       0x88 CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/rp2_common/hardware_irq/irq.c.obj
  .rodata.make_branch.str1.4
-                0x100089ab       0x30 CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/rp2_common/hardware_irq/irq.c.obj
+                0x100089b3       0x30 CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/rp2_common/hardware_irq/irq.c.obj
  .rodata.insert_branch_and_link.str1.4
-                0x100089ab       0x10 CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/rp2_common/hardware_irq/irq.c.obj
+                0x100089b3       0x10 CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/rp2_common/hardware_irq/irq.c.obj
  .rodata.irq_set_exclusive_handler.str1.4
-                0x100089ab       0x36 CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/rp2_common/hardware_irq/irq.c.obj
+                0x100089b3       0x36 CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/rp2_common/hardware_irq/irq.c.obj
  .rodata.irq_add_shared_handler.str1.4
-                0x100089ab       0xc2 CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/rp2_common/hardware_irq/irq.c.obj
+                0x100089b3       0xc2 CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/rp2_common/hardware_irq/irq.c.obj
  .rodata.irq_remove_handler.str1.4
-                0x100089ab       0x3a CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/rp2_common/hardware_irq/irq.c.obj
+                0x100089b3       0x3a CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/rp2_common/hardware_irq/irq.c.obj
  .rodata.irq_add_tail_to_free_list.str1.4
-                0x100089ab       0x3a CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/rp2_common/hardware_irq/irq.c.obj
+                0x100089b3       0x3a CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/rp2_common/hardware_irq/irq.c.obj
  .rodata.user_irq_claim_unused.str1.4
-                0x100089ab       0x1b CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/rp2_common/hardware_irq/irq.c.obj
- *fill*         0x100089ab        0x1 
+                0x100089b3       0x1b CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/rp2_common/hardware_irq/irq.c.obj
+ *fill*         0x100089b3        0x1 
  .rodata.__func__.0
-                0x100089ac       0x1a CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/rp2_common/hardware_irq/irq.c.obj
- *fill*         0x100089c6        0x2 
+                0x100089b4       0x1a CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/rp2_common/hardware_irq/irq.c.obj
+ *fill*         0x100089ce        0x2 
  .rodata.__func__.1
-                0x100089c8       0x17 CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/rp2_common/hardware_irq/irq.c.obj
- *fill*         0x100089df        0x1 
+                0x100089d0       0x17 CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/rp2_common/hardware_irq/irq.c.obj
+ *fill*         0x100089e7        0x1 
  .rodata.__func__.2
-                0x100089e0       0x13 CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/rp2_common/hardware_irq/irq.c.obj
- *fill*         0x100089f3        0x1 
+                0x100089e8       0x13 CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/rp2_common/hardware_irq/irq.c.obj
+ *fill*         0x100089fb        0x1 
  .rodata.__func__.3
-                0x100089f4        0xc CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/rp2_common/hardware_irq/irq.c.obj
+                0x100089fc        0xc CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/rp2_common/hardware_irq/irq.c.obj
  .rodata.__func__.4
-                0x10008a00        0xf CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/rp2_common/hardware_irq/irq.c.obj
- *fill*         0x10008a0f        0x1 
+                0x10008a08        0xf CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/rp2_common/hardware_irq/irq.c.obj
+ *fill*         0x10008a17        0x1 
  .rodata.__func__.5
-                0x10008a10       0x17 CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/rp2_common/hardware_irq/irq.c.obj
- *fill*         0x10008a27        0x1 
+                0x10008a18       0x17 CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/rp2_common/hardware_irq/irq.c.obj
+ *fill*         0x10008a2f        0x1 
  .rodata.__func__.6
-                0x10008a28       0x1a CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/rp2_common/hardware_irq/irq.c.obj
+                0x10008a30       0x1a CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/rp2_common/hardware_irq/irq.c.obj
  .rodata.update_us_since_boot.str1.4
-                0x10008a42       0x94 CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/common/pico_sync/mutex.c.obj
+                0x10008a4a       0x94 CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/common/pico_sync/mutex.c.obj
  .rodata.str1.4
-                0x10008a42       0xbd CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/common/pico_sync/mutex.c.obj
- *fill*         0x10008a42        0x2 
+                0x10008a4a       0xbd CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/common/pico_sync/mutex.c.obj
+ *fill*         0x10008a4a        0x2 
  .rodata.__func__.1
-                0x10008a44        0xb CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/common/pico_sync/mutex.c.obj
- *fill*         0x10008a4f        0x1 
+                0x10008a4c        0xb CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/common/pico_sync/mutex.c.obj
+ *fill*         0x10008a57        0x1 
  .rodata.__func__.3
-                0x10008a50       0x18 CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/common/pico_sync/mutex.c.obj
+                0x10008a58       0x18 CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/common/pico_sync/mutex.c.obj
  .rodata.__func__.4
-                0x10008a68       0x15 CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/common/pico_sync/mutex.c.obj
+                0x10008a70       0x15 CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/common/pico_sync/mutex.c.obj
  .rodata.get_entry.str1.4
-                0x10008a7d       0x8e CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/common/pico_time/time.c.obj
+                0x10008a85       0x8e CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/common/pico_time/time.c.obj
  .rodata.update_us_since_boot.str1.4
-                0x10008a7d       0x94 CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/common/pico_time/time.c.obj
+                0x10008a85       0x94 CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/common/pico_time/time.c.obj
  .rodata.ph_get_node.str1.4
-                0x10008a7d       0x99 CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/common/pico_time/time.c.obj
+                0x10008a85       0x99 CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/common/pico_time/time.c.obj
  .rodata.ph_add_child_node.str1.4
-                0x10008a7d       0x2e CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/common/pico_time/time.c.obj
+                0x10008a85       0x2e CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/common/pico_time/time.c.obj
  .rodata.ph_insert_node.str1.4
-                0x10008a7d        0x3 CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/common/pico_time/time.c.obj
+                0x10008a85        0x3 CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/common/pico_time/time.c.obj
  .rodata.ph_free_node.str1.4
-                0x10008a7d       0x38 CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/common/pico_time/time.c.obj
+                0x10008a85       0x38 CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/common/pico_time/time.c.obj
  .rodata.add_alarm_under_lock.str1.4
-                0x10008a7d       0x28 CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/common/pico_time/time.c.obj
+                0x10008a85       0x28 CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/common/pico_time/time.c.obj
  .rodata.alarm_pool_alarm_callback.str1.4
-                0x10008a7d       0x60 CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/common/pico_time/time.c.obj
+                0x10008a85       0x60 CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/common/pico_time/time.c.obj
  .rodata.alarm_pool_get_default.str1.4
-                0x10008a7d       0x21 CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/common/pico_time/time.c.obj
+                0x10008a85       0x21 CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/common/pico_time/time.c.obj
  .rodata.alarm_pool_cancel_alarm.str1.4
-                0x10008a7d       0x27 CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/common/pico_time/time.c.obj
+                0x10008a85       0x27 CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/common/pico_time/time.c.obj
  .rodata.sleep_until.str1.4
-                0x10008a7d       0x4d CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/common/pico_time/time.c.obj
- *fill*         0x10008a7d        0x3 
+                0x10008a85       0x4d CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/common/pico_time/time.c.obj
+ *fill*         0x10008a85        0x3 
  .rodata.__func__.1
-                0x10008a80       0x18 CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/common/pico_time/time.c.obj
+                0x10008a88       0x18 CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/common/pico_time/time.c.obj
  .rodata.__func__.3
-                0x10008a98       0x17 CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/common/pico_time/time.c.obj
- *fill*         0x10008aaf        0x1 
+                0x10008aa0       0x17 CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/common/pico_time/time.c.obj
+ *fill*         0x10008ab7        0x1 
  .rodata.__func__.4
-                0x10008ab0       0x12 CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/common/pico_time/time.c.obj
- *fill*         0x10008ac2        0x2 
+                0x10008ab8       0x12 CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/common/pico_time/time.c.obj
+ *fill*         0x10008aca        0x2 
  .rodata.__func__.5
-                0x10008ac4        0xd CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/common/pico_time/time.c.obj
- *fill*         0x10008ad1        0x3 
+                0x10008acc        0xd CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/common/pico_time/time.c.obj
+ *fill*         0x10008ad9        0x3 
  .rodata.__func__.6
-                0x10008ad4       0x12 CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/common/pico_time/time.c.obj
- *fill*         0x10008ae6        0x2 
+                0x10008adc       0x12 CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/common/pico_time/time.c.obj
+ *fill*         0x10008aee        0x2 
  .rodata.__func__.7
-                0x10008ae8        0xf CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/common/pico_time/time.c.obj
- *fill*         0x10008af7        0x1 
+                0x10008af0        0xf CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/common/pico_time/time.c.obj
+ *fill*         0x10008aff        0x1 
  .rodata.__func__.8
-                0x10008af8        0xc CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/common/pico_time/time.c.obj
+                0x10008b00        0xc CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/common/pico_time/time.c.obj
  .rodata.__func__.9
-                0x10008b04       0x15 CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/common/pico_time/time.c.obj
- *fill*         0x10008b19        0x3 
+                0x10008b0c       0x15 CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/common/pico_time/time.c.obj
+ *fill*         0x10008b21        0x3 
  .rodata.__func__.10
-                0x10008b1c       0x15 CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/common/pico_time/time.c.obj
- *fill*         0x10008b31        0x3 
+                0x10008b24       0x15 CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/common/pico_time/time.c.obj
+ *fill*         0x10008b39        0x3 
  .rodata.__func__.11
-                0x10008b34       0x1a CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/common/pico_time/time.c.obj
- *fill*         0x10008b4e        0x2 
+                0x10008b3c       0x1a CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/common/pico_time/time.c.obj
+ *fill*         0x10008b56        0x2 
  .rodata.__func__.12
-                0x10008b50        0xa CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/common/pico_time/time.c.obj
+                0x10008b58        0xa CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/common/pico_time/time.c.obj
  .rodata.hardware_alarm_claim.str1.4
-                0x10008b5a       0x22 CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/rp2_common/hardware_timer/timer.c.obj
+                0x10008b62       0x22 CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/rp2_common/hardware_timer/timer.c.obj
  .rodata.hardware_alarm_set_target.str1.4
-                0x10008b5a       0x98 CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/rp2_common/hardware_timer/timer.c.obj
- *fill*         0x10008b5a        0x2 
+                0x10008b62       0x98 CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/rp2_common/hardware_timer/timer.c.obj
+ *fill*         0x10008b62        0x2 
  .rodata.__func__.0
-                0x10008b5c       0x1a CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/rp2_common/hardware_timer/timer.c.obj
+                0x10008b64       0x1a CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/rp2_common/hardware_timer/timer.c.obj
  .rodata.ph_get_node.str1.4
-                0x10008b76       0x99 CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/common/pico_util/pheap.c.obj
+                0x10008b7e       0x99 CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/common/pico_util/pheap.c.obj
  .rodata.ph_add_child_node.str1.4
-                0x10008b76       0x2e CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/common/pico_util/pheap.c.obj
+                0x10008b7e       0x2e CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/common/pico_util/pheap.c.obj
  .rodata.ph_remove_any_head.str1.4
-                0x10008b76       0xd4 CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/common/pico_util/pheap.c.obj
+                0x10008b7e       0xd4 CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/common/pico_util/pheap.c.obj
  .rodata.ph_remove_and_free_node.str1.4
-                0x10008b76       0x26 CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/common/pico_util/pheap.c.obj
- *fill*         0x10008b76        0x2 
+                0x10008b7e       0x26 CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/common/pico_util/pheap.c.obj
+ *fill*         0x10008b7e        0x2 
  .rodata.__func__.0
-                0x10008b78       0x18 CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/common/pico_util/pheap.c.obj
+                0x10008b80       0x18 CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/common/pico_util/pheap.c.obj
  .rodata.__func__.1
-                0x10008b90       0x13 CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/common/pico_util/pheap.c.obj
- *fill*         0x10008ba3        0x1 
+                0x10008b98       0x13 CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/common/pico_util/pheap.c.obj
+ *fill*         0x10008bab        0x1 
  .rodata.__func__.2
-                0x10008ba4       0x12 CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/common/pico_util/pheap.c.obj
- *fill*         0x10008bb6        0x2 
+                0x10008bac       0x12 CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/common/pico_util/pheap.c.obj
+ *fill*         0x10008bbe        0x2 
  .rodata.__func__.3
-                0x10008bb8        0xc CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/common/pico_util/pheap.c.obj
+                0x10008bc0        0xc CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/common/pico_util/pheap.c.obj
  .rodata.clock_configure.str1.4
-                0x10008bc4       0x8a CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/rp2_common/hardware_clocks/clocks.c.obj
+                0x10008bcc       0x8a CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/rp2_common/hardware_clocks/clocks.c.obj
  .rodata.__func__.1
-                0x10008bc4       0x10 CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/rp2_common/hardware_clocks/clocks.c.obj
+                0x10008bcc       0x10 CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/rp2_common/hardware_clocks/clocks.c.obj
  .rodata.pll_init.str1.4
-                0x10008bd4      0x154 CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/rp2_common/hardware_pll/pll.c.obj
+                0x10008bdc      0x154 CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/rp2_common/hardware_pll/pll.c.obj
  .rodata.__func__.0
-                0x10008bd4        0x9 CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/rp2_common/hardware_pll/pll.c.obj
+                0x10008bdc        0x9 CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/rp2_common/hardware_pll/pll.c.obj
  .rodata.__assert_func.str1.4
-                0x10008bdd       0x43 CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/rp2_common/pico_runtime/runtime.c.obj
+                0x10008be5       0x43 CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/rp2_common/pico_runtime/runtime.c.obj
  .rodata.runtime_init.str1.4
-                0x10008bdd       0x94 CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/rp2_common/pico_runtime/runtime.c.obj
+                0x10008be5       0x94 CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/rp2_common/pico_runtime/runtime.c.obj
  .rodata.panic.str1.4
-                0x10008bdd       0x12 CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/rp2_common/pico_runtime/runtime.c.obj
- *fill*         0x10008bdd        0x3 
+                0x10008be5       0x12 CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/rp2_common/pico_runtime/runtime.c.obj
+ *fill*         0x10008be5        0x3 
  .rodata.__func__.2
-                0x10008be0        0xd CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/rp2_common/pico_runtime/runtime.c.obj
+                0x10008be8        0xd CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/rp2_common/pico_runtime/runtime.c.obj
  .rodata._ftoa.str1.4
-                0x10008bed       0x15 CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/rp2_common/pico_printf/printf.c.obj
- *fill*         0x10008bed        0x3 
+                0x10008bf5       0x15 CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/rp2_common/pico_printf/printf.c.obj
+ *fill*         0x10008bf5        0x3 
  .rodata._vsnprintf
-                0x10008bf0      0x19c CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/rp2_common/pico_printf/printf.c.obj
- *fill*         0x10008d8c        0x4 
+                0x10008bf8      0x19c CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/rp2_common/pico_printf/printf.c.obj
+ *fill*         0x10008d94        0x4 
  .rodata.pow10.0
-                0x10008d90       0x50 CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/rp2_common/pico_printf/printf.c.obj
+                0x10008d98       0x50 CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/rp2_common/pico_printf/printf.c.obj
  .rodata.__aeabi_double_init.str1.4
-                0x10008de0       0xcf CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/rp2_common/pico_double/double_init_rom.c.obj
+                0x10008de8       0xcf CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/rp2_common/pico_double/double_init_rom.c.obj
  .rodata.__func__.0
-                0x10008de0       0x14 CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/rp2_common/pico_double/double_init_rom.c.obj
+                0x10008de8       0x14 CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/rp2_common/pico_double/double_init_rom.c.obj
  .rodata.__aeabi_float_init.str1.4
-                0x10008df4       0xb1 CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/rp2_common/pico_float/float_init_rom.c.obj
+                0x10008dfc       0xb1 CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/rp2_common/pico_float/float_init_rom.c.obj
  .rodata.__func__.0
-                0x10008df4       0x13 CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/rp2_common/pico_float/float_init_rom.c.obj
+                0x10008dfc       0x13 CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/rp2_common/pico_float/float_init_rom.c.obj
  .rodata.str1.4
-                0x10008e07       0x4c CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/rp2_common/pico_standard_link/binary_info.c.obj
- *fill*         0x10008e07        0x1 
+                0x10008e0f       0x4c CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/rp2_common/pico_standard_link/binary_info.c.obj
+ *fill*         0x10008e0f        0x1 
  .rodata.__bi_81
-                0x10008e08        0xc CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x10008e10        0xc CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.__bi_75
-                0x10008e14        0xc CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x10008e1c        0xc CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.__bi_56
-                0x10008e20        0xc CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x10008e28        0xc CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.__bi_44
-                0x10008e2c        0xc CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x10008e34        0xc CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.update_us_since_boot.str1.4
-                0x10008e38       0x94 CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/rp2_common/pico_stdio/stdio.c.obj
+                0x10008e40       0x94 CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/rp2_common/pico_stdio/stdio.c.obj
  .rodata.crlf_str.2
-                0x10008e38        0x2 CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/rp2_common/pico_stdio/stdio.c.obj
- *fill*         0x10008e3a        0x2 
+                0x10008e40        0x2 CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/rp2_common/pico_stdio/stdio.c.obj
+ *fill*         0x10008e42        0x2 
  .rodata.__func__.3
-                0x10008e3c       0x15 CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/rp2_common/pico_stdio/stdio.c.obj
- *fill*         0x10008e51        0x3 
+                0x10008e44       0x15 CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/rp2_common/pico_stdio/stdio.c.obj
+ *fill*         0x10008e59        0x3 
  .rodata._resetd_driver
-                0x10008e54       0x18 CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+                0x10008e5c       0x18 CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
  .rodata.update_us_since_boot.str1.4
-                0x10008e6c       0x94 CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x10008e74       0x94 CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
  .rodata.stdio_usb_init.str1.4
-                0x10008e6c       0x80 CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x10008e74       0x80 CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
  .rodata.str1.4
-                0x10008e6c       0x13 CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x10008e74       0x13 CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
  .rodata.__bi_182.0
-                0x10008e6c        0xc CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x10008e74        0xc CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
  .rodata.__func__.1
-                0x10008e78        0xf CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
- *fill*         0x10008e87        0x1 
+                0x10008e80        0xf CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+ *fill*         0x10008e8f        0x1 
  .rodata.__func__.3
-                0x10008e88       0x15 CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x10008e90       0x15 CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
  .rodata.str1.4
-                0x10008e9d       0x2a CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
- *fill*         0x10008e9d        0x3 
+                0x10008ea5       0x2a CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+ *fill*         0x10008ea5        0x3 
  .rodata.usbd_desc_str
-                0x10008ea0       0x18 CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+                0x10008ea8       0x18 CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
  .rodata.usbd_desc_cfg
-                0x10008eb8       0x54 CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+                0x10008ec0       0x54 CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
  .rodata.usbd_desc_device
-                0x10008f0c       0x12 CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+                0x10008f14       0x12 CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
  .rodata.pico_get_unique_board_id_string.str1.4
-                0x10008f1e       0x80 CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/rp2_common/pico_unique_id/unique_id.c.obj
- *fill*         0x10008f1e        0x2 
+                0x10008f26       0x80 CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/rp2_common/pico_unique_id/unique_id.c.obj
+ *fill*         0x10008f26        0x2 
  .rodata.__func__.0
-                0x10008f20       0x20 CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/rp2_common/pico_unique_id/unique_id.c.obj
+                0x10008f28       0x20 CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/rp2_common/pico_unique_id/unique_id.c.obj
  .rodata.str1.4
-                0x10008f40      0x18a CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/rp2_common/hardware_flash/flash.c.obj
+                0x10008f48      0x18a CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/rp2_common/hardware_flash/flash.c.obj
  .rodata.__func__.0
-                0x10008f40        0xd CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/rp2_common/hardware_flash/flash.c.obj
+                0x10008f48        0xd CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/rp2_common/hardware_flash/flash.c.obj
  .rodata._hw_endpoint_alloc.str1.4
-                0x10008f4d       0xe9 CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x10008f55       0xe9 CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
  .rodata.str1.4
-                0x10008f4d       0x14 CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x10008f55       0x14 CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
  .rodata.dcd_int_enable.str1.4
-                0x10008f4d        0xc CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
- *fill*         0x10008f4d        0x3 
+                0x10008f55        0xc CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+ *fill*         0x10008f55        0x3 
  .rodata.__func__.0
-                0x10008f50        0xe CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
- *fill*         0x10008f5e        0x2 
+                0x10008f58        0xe CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+ *fill*         0x10008f66        0x2 
  .rodata.__func__.1
-                0x10008f60        0xe CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
- *fill*         0x10008f6e        0x2 
+                0x10008f68        0xe CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+ *fill*         0x10008f76        0x2 
  .rodata.__func__.3
-                0x10008f70       0x10 CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x10008f78       0x10 CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
  .rodata.__func__.5
-                0x10008f80        0xf CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
- *fill*         0x10008f8f        0x1 
+                0x10008f88        0xf CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+ *fill*         0x10008f97        0x1 
  .rodata.__func__.6
-                0x10008f90       0x13 CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
- *fill*         0x10008fa3        0x1 
+                0x10008f98       0x13 CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+ *fill*         0x10008fab        0x1 
  .rodata.__func__.7
-                0x10008fa4        0x9 CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x10008fac        0x9 CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
  .rodata.str1.4
-                0x10008fad      0x11b CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
- *fill*         0x10008fad        0x3 
+                0x10008fb5      0x11b CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+ *fill*         0x10008fb5        0x3 
  .rodata.__func__.0
-                0x10008fb0        0xf CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
- *fill*         0x10008fbf        0x1 
+                0x10008fb8        0xf CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+ *fill*         0x10008fc7        0x1 
  .rodata.process_get_descriptor
-                0x10008fc0       0x40 CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/lib/tinyusb/src/device/usbd.c.obj
+                0x10008fc8       0x40 CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/lib/tinyusb/src/device/usbd.c.obj
  .rodata.process_control_request
-                0x10009000       0x28 CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/lib/tinyusb/src/device/usbd.c.obj
+                0x10009008       0x28 CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/lib/tinyusb/src/device/usbd.c.obj
  .rodata.tud_task_ext
-                0x10009028       0x24 CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/lib/tinyusb/src/device/usbd.c.obj
+                0x10009030       0x24 CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/lib/tinyusb/src/device/usbd.c.obj
  .rodata._usbd_driver
-                0x1000904c       0x18 CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/lib/tinyusb/src/device/usbd.c.obj
- .rodata.Font   0x10009064      0x1db pico-st7735/lib-st7735/libst7735.a(ST7735_TFT.c.obj)
-                0x10009064                Font
-                0x10009240                        . = ALIGN (0x4)
- *fill*         0x1000923f        0x1 
+                0x10009054       0x18 CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/lib/tinyusb/src/device/usbd.c.obj
+ .rodata.Font   0x1000906c      0x1db pico-st7735/lib-st7735/libst7735.a(ST7735_TFT.c.obj)
+                0x1000906c                Font
+                0x10009248                        . = ALIGN (0x4)
+ *fill*         0x10009247        0x1 
  *(SORT_BY_ALIGNMENT(SORT_BY_NAME(.flashdata*)))
-                0x10009240                        . = ALIGN (0x4)
+                0x10009248                        . = ALIGN (0x4)
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x10009240                        __exidx_start = .
+                0x10009248                        __exidx_start = .
 
 .ARM.exidx
  *(.ARM.exidx* .gnu.linkonce.armexidx.*)
-                0x10009240                        __exidx_end = .
-                0x10009240                        . = ALIGN (0x4)
-                0x10009240                        __binary_info_start = .
+                0x10009248                        __exidx_end = .
+                0x10009248                        . = ALIGN (0x4)
+                0x10009248                        __binary_info_start = .
 
-.binary_info    0x10009240       0x24
+.binary_info    0x10009248       0x24
  *(.binary_info.keep.*)
  .binary_info.keep.__bi_ptr81
-                0x10009240        0x4 CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/rp2_common/pico_standard_link/binary_info.c.obj
- .binary_info.keep.__bi_ptr75
-                0x10009244        0x4 CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/rp2_common/pico_standard_link/binary_info.c.obj
- .binary_info.keep.__bi_ptr56
                 0x10009248        0x4 CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/rp2_common/pico_standard_link/binary_info.c.obj
- .binary_info.keep.__bi_ptr50
+ .binary_info.keep.__bi_ptr75
                 0x1000924c        0x4 CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/rp2_common/pico_standard_link/binary_info.c.obj
- .binary_info.keep.__bi_ptr44
+ .binary_info.keep.__bi_ptr56
                 0x10009250        0x4 CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/rp2_common/pico_standard_link/binary_info.c.obj
- .binary_info.keep.__bi_ptr38
+ .binary_info.keep.__bi_ptr50
                 0x10009254        0x4 CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/rp2_common/pico_standard_link/binary_info.c.obj
- .binary_info.keep.__bi_ptr30
+ .binary_info.keep.__bi_ptr44
                 0x10009258        0x4 CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/rp2_common/pico_standard_link/binary_info.c.obj
- .binary_info.keep.__bi_ptr22
+ .binary_info.keep.__bi_ptr38
                 0x1000925c        0x4 CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/rp2_common/pico_standard_link/binary_info.c.obj
+ .binary_info.keep.__bi_ptr30
+                0x10009260        0x4 CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/rp2_common/pico_standard_link/binary_info.c.obj
+ .binary_info.keep.__bi_ptr22
+                0x10009264        0x4 CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/rp2_common/pico_standard_link/binary_info.c.obj
  *(.binary_info.*)
  .binary_info.__bi_ptr182
-                0x10009260        0x4 CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
-                0x10009264                        __binary_info_end = .
+                0x10009268        0x4 CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x1000926c                        __binary_info_end = .
 
-.rel.dyn        0x10009264        0x0
- .rel.iplt      0x10009264        0x0 /usr/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp/crtbegin.o
-                0x10009264                        . = ALIGN (0x4)
+.rel.dyn        0x1000926c        0x0
+ .rel.iplt      0x1000926c        0x0 /usr/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp/crtbegin.o
+                0x1000926c                        . = ALIGN (0x4)
 
 .ram_vector_table
                 0x20000000       0xc0
@@ -3167,7 +3167,7 @@ LOAD /usr/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thum
                 0x20000000       0xc0 CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/rp2_common/pico_runtime/runtime.c.obj
                 0x20000000                ram_vector_table
 
-.data           0x200000c0      0xb80 load address 0x10009264
+.data           0x200000c0      0xb80 load address 0x1000926c
                 0x200000c0                        __data_start__ = .
  *(vtable)
  *(.time_critical*)
@@ -3317,36 +3317,36 @@ LOAD /usr/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thum
  *(.jcr)
                 0x20000c40                        . = ALIGN (0x4)
                 0x20000c40                        __data_end__ = .
-                0x10009264                        __etext = LOADADDR (.data)
+                0x1000926c                        __etext = LOADADDR (.data)
 
 .tm_clone_table
-                0x20000c40        0x0 load address 0x10009de4
+                0x20000c40        0x0 load address 0x10009dec
  .tm_clone_table
                 0x20000c40        0x0 /usr/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp/crtbegin.o
  .tm_clone_table
                 0x20000c40        0x0 /usr/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp/crtend.o
 
-.igot.plt       0x20000c40        0x0 load address 0x10009de4
+.igot.plt       0x20000c40        0x0 load address 0x10009dec
  .igot.plt      0x20000c40        0x0 /usr/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp/crtbegin.o
 
 .uninitialized_data
-                0x20000c40        0x0 load address 0x10009de4
+                0x20000c40        0x0 load address 0x10009dec
                 0x20000c40                        . = ALIGN (0x4)
  *(.uninitialized_data*)
 
-.scratch_x      0x20040000        0x0 load address 0x10009de4
+.scratch_x      0x20040000        0x0 load address 0x10009dec
                 0x20040000                        __scratch_x_start__ = .
  *(.scratch_x.*)
                 0x20040000                        . = ALIGN (0x4)
                 0x20040000                        __scratch_x_end__ = .
-                0x10009de4                        __scratch_x_source__ = LOADADDR (.scratch_x)
+                0x10009dec                        __scratch_x_source__ = LOADADDR (.scratch_x)
 
-.scratch_y      0x20041000        0x0 load address 0x10009de4
+.scratch_y      0x20041000        0x0 load address 0x10009dec
                 0x20041000                        __scratch_y_start__ = .
  *(.scratch_y.*)
                 0x20041000                        . = ALIGN (0x4)
                 0x20041000                        __scratch_y_end__ = .
-                0x10009de4                        __scratch_y_source__ = LOADADDR (.scratch_y)
+                0x10009dec                        __scratch_y_source__ = LOADADDR (.scratch_y)
 
 .bss            0x20000c40      0xd84
                 0x20000c40                        . = ALIGN (0x4)
@@ -3468,8 +3468,8 @@ LOAD /usr/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thum
  *(.stack*)
  .stack         0x20041000      0x800 CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/rp2_common/pico_standard_link/crt0.S.obj
 
-.flash_end      0x10009de4        0x0
-                0x10009de4                        PROVIDE (__flash_binary_end = .)
+.flash_end      0x10009dec        0x0
+                0x10009dec                        PROVIDE (__flash_binary_end = .)
                 0x20040000                        __StackLimit = (ORIGIN (RAM) + LENGTH (RAM))
                 0x20041000                        __StackOneTop = (ORIGIN (SCRATCH_X) + LENGTH (SCRATCH_X))
                 0x20042000                        __StackTop = (ORIGIN (SCRATCH_Y) + LENGTH (SCRATCH_Y))
@@ -3551,7 +3551,7 @@ LOAD CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/lib/tinyusb/src/common/t
 LOAD CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
 LOAD CMakeFiles/pico-st7735-demo.dir/_deps/pico_sdk-src/src/rp2_common/hardware_spi/spi.c.obj
 LOAD pico-st7735/lib-st7735/libst7735.a
-LOAD /tmp/cc7XdPcI.o
+LOAD /tmp/ccL41Y7G.o
 LOAD /usr/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libstdc++.a
 LOAD /usr/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libm.a
 START GROUP
@@ -3674,7 +3674,7 @@ LOAD linker stubs
  .ARM.attributes
                 0x00000826       0x2c pico-st7735/lib-st7735/libst7735.a(hw.c.obj)
  .ARM.attributes
-                0x00000852       0x22 /tmp/cc7XdPcI.o
+                0x00000852       0x22 /tmp/ccL41Y7G.o
  .ARM.attributes
                 0x00000874       0x1e /usr/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .ARM.attributes

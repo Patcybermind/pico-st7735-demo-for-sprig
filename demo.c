@@ -8,6 +8,9 @@
 //
 // https://github.com/bablokb/pico-st7735
 // --------------------------------------------------------------------------
+
+
+
 #include <stdio.h>
 #include "pico/stdlib.h"
 #include "hardware/spi.h"
@@ -15,8 +18,10 @@
 #include "tst_funcs.h"
 #include "ST7735_TFT.h"
 
-#define TFT_ENABLE_BLACK
+#define TFT_ENABLE_GENERIC
 #define TFT_ENABLE_TEST1
+#define TFT_ENABLE_ALL
+
 // ---------------------------------------------------------------------------
 // hardware-specific intialization
 // SPI_* constants from CMakeLists.txt or user.h
